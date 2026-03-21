@@ -1,33 +1,11 @@
 # Repository Memory
 
-## Stable Context
-- **Repository**: `qiubi77/my-claw`  
-  所有 issue 與 agent 檔案皆存於此倉庫，並以 `agents/` 目錄管理對話紀錄。  
-- **Issue 範圍**: 目前僅有一個開啟的 issue（#1），用於與第一隻小龍蝦（QB）進行對話。  
-- **通訊管道**: 主人主要透過 Telegram 傳送訊息給 agent，訊息會自動轉成 issue 或 agent 檔案。  
-- **命名慣例**: 目前 agent 可能被稱為「QB」、「小龍蝦」或「丘比」，但尚未確定最終正式名稱。  
-- **工作流程**: 任何訊息若被視為可執行任務，將在 issue 中拆分為子任務；目前尚未有此轉換發生。  
+這份檔案是從 `daily/*.md` 蒸餾出來的長期 memory。
 
-## Recent Themes
-- **身份與命名確認**  
-  主人於 2026‑03‑20 透過 Telegram 傳送「14456」與「440」兩條訊息，並詢問 agent 名稱。  
-- **對話初始化**  
-  這是第一個與 agent 的對話起點，未來若有更多 issue，將以此為參考。  
-- **等待回覆**  
-  目前 issue 仍處於「等待」狀態，尚未收到 agent 的回應。  
+尚未建立整理後的長期 context。
 
-## Constraints
-- **Issue 限制**: 目前設定為一次最多 100 個 issue，且只考慮最近 30 天內的活動。  
-- **標籤使用**: 在此 30 天窗口內未發現任何標籤，表示目前尚未建立標籤分類。  
-- **資料來源**: 只以 GitHub issue / comment 為原始資料，手動筆記不覆寫自動彙整。  
+請先產生 daily snapshots，再整理成這份 MEMORY.md：
 
-## Open Loops
-- **Agent 回覆**  
-  尚未收到任何回覆，無法確認對話是否成功。  
-- **任務拆分**  
-  目前沒有訊息被轉為可追蹤任務，需等待 agent 進一步回應後決定是否拆分。  
-- **命名確認**  
-  主人提到「QB」與「小龍蝦」兩個稱呼，需確定最終使用的名稱以避免混淆。  
-
-> **備註**  
-> 若未來有更多 issue 進入此 repository，請持續以同樣的格式更新，讓龍蝦群能夠快速捕捉
+- 觸發 `.github/workflows/compact-memory.yml`
+- 執行 `node .github/scripts/memory/compact-memory.mjs`
+- 執行 `node .github/scripts/memory/summarize-memory-context.mjs --memory-dir .memory --output .memory/MEMORY.md`

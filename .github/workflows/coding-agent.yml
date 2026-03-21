@@ -53,7 +53,7 @@ env:
   AUTOMATION_GIT_USER_NAME: "${{ vars['AUTOMATION_GIT_USER_NAME'] || 'github-actions[bot]' }}"
   AUTOMATION_GIT_USER_EMAIL: "${{ vars['AUTOMATION_GIT_USER_EMAIL'] || 'github-actions[bot]@users.noreply.github.com' }}"
   # 給 copilot CLI 做 GitHub 驗證用的 token；實際權限要看 repo secrets 如何配置。
-  COPILOT_GITHUB_TOKEN: "${{ secrets.GH_CODESPACE_TOKEN || secrets.GH_ISSUES_TOKEN }}"
+  COPILOT_GITHUB_TOKEN: "${{ secrets.COPILOT_GITHUB_TOKEN || secrets.GH_CODESPACE_TOKEN || secrets.GH_ISSUES_TOKEN }}"
 
   CLOUDFLARE_API_TOKEN: "${{ secrets.CLOUDFLARE_API_TOKEN }}"
 
@@ -297,6 +297,7 @@ jobs:
         env:
           GH_TOKEN: ${{ env.COPILOT_GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ env.COPILOT_GITHUB_TOKEN }}
+          COPILOT_HOME: ".copilot"
           COPILOT_GITHUB_TOKEN: ${{ env.COPILOT_GITHUB_TOKEN }}
           ISSUE_DIR: ${{ steps.workspace.outputs.issue_dir }}
           RESULT_FILE: ${{ steps.workspace.outputs.result_file }}
@@ -453,7 +454,7 @@ jobs:
             fi
             prompt="$(cat issue.md)"
             # 以 workflow 既有旗標呼叫 copilot CLI，並把 JSON 輸出同步寫進 log 檔。
-            copilot -p "${prompt}" --yolo --no-auto-update --config-dir .copilot --add-dir ../../.github/scripts --add-dir ../../.github/hooks --add-dir ../../.memory --add-dir ../../.agents --output-format json --stream off \
+            copilot -p "${prompt}" --yolo --output-format json --stream off \
               | tee "$(basename "${LOG_FILE}")" \
               | jq
           )
