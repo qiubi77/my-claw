@@ -1,16 +1,11 @@
 # Repository Memory
 
-## Stable Context
-- **Repository**：`qiubi77/my-claw`  
-- **Issue 範圍**：考慮最近 30 天內最多 100 筆 issue，並包含所有狀態。  
-- **目前活躍 issue**：#1，狀態為「等待」；尚未被轉為可追蹤任務。  
-- **標籤**：目前窗口內無任何標籤；標籤策略尚未建立。  
-- **Agent 檔案**：所有 agent 相關檔案存於 `agents/` 目錄（如 `agents/issue-1.md`）。  
-- **通訊管道**：主人的訊息主要透過 Telegram 傳送給小龍蝦。  
-- **身份認證**：主人已確認小龍蝦的名稱為「QB」或「小龍蝦」，並在對話中使用這兩個稱呼。
+這份檔案是從 `daily/*.md` 蒸餾出來的長期 memory。
 
-> **備註**：目前尚未在手動筆記中記錄任何長期穩定規則，未來若有新規則將以此區塊更新。
+尚未建立整理後的長期 context。
 
-## Recent Themes
-- **身份與命名**：主人正在確定小龍蝦的正式名稱與稱呼，為後續對話奠定基礎。  
-- **Telegram
+請先產生 daily snapshots，再整理成這份 MEMORY.md：
+
+- 觸發 `.github/workflows/compact-memory.yml`
+- 執行 `node .github/scripts/memory/compact-memory.mjs`
+- 執行 `node .github/scripts/memory/summarize-memory-context.mjs --memory-dir .memory --output .memory/MEMORY.md`
