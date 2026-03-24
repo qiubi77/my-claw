@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-03-24T21:55:40.019Z",
+  "repository": "qiubi77/my-claw",
+  "issue": {
+    "number": 1,
+    "title": "Issue #1",
+    "url": "https://github.com/qiubi77/my-claw/issues/1",
+    "state": "open",
+    "author": "qiubi77",
+    "labels": [],
+    "assignees": [],
+    "participants": [
+      "qiubi77"
+    ],
+    "commentCount": 0,
+    "updatedAt": "2026-03-20T15:29:27.000Z"
+  },
+  "summary": {
+    "status": "活躍（issue 尚未關閉且無任何更新，仍待處理）",
+    "recentActivity": [
+      "尚未收到任何指示或回覆，龍蝦目前待命。"
+    ],
+    "decisions": [
+      "尚未做出任何決策，等待主人的指示。"
+    ],
+    "completedWork": [
+      "無已完成工作。"
+    ],
+    "openTasks": [
+      "等待主人的進一步需求或指示。"
+    ],
+    "preferences": [
+      "目前沒有可確認的偏好設定。"
+    ],
+    "openLoops": [
+      "等待主人的進一步需求或指示。"
+    ]
+  }
+}
