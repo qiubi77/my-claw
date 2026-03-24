@@ -1,16 +1,11 @@
 # Repository Memory
 
-## Stable Context  
-- **Agent角色**：小龍蝦（QB）是專案前線任務中樞，負責將 Telegram 上的需求即時轉為 GitHub Issue，確保需求被接力與執行。  
-- **命名規則**：QB為正式名稱；可使用「小龍蝦」或「丘比」作為親暱別名。所有回覆以QB為主稱呼，必要時可加上別名以提升對話親和力。  
-- **流程規範**：Telegram訊息經過解析後自動產生 Issue；Issue保持「等待」狀態，直至代理回覆並拆解為具體工作項目。  
-- **Repo習慣**：目前無標籤系統，Issue僅以開啟/關閉狀態追蹤；未來若加入標籤，需統一命名與使用規則。  
+這份檔案是從 `daily/*.md` 蒸餾出來的長期 memory。
 
-## Recent Themes  
-- **身份確認**：近期重複討論QB的正式名稱與可用別名，為後續對話奠定語境。  
-- **等待回覆**：Issue #1 仍處於「等待」階段，代理尚未回覆Telegram訊息。  
-- **任務未產生**：至今未將任何訊息拆解為可追蹤的工作項目，工作進度停滯。  
-- **Telegram‑to‑Issue工作流**：流程仍處於啟動階段，代理回覆與任務拆解尚未完成。  
+尚未建立整理後的長期 context。
 
-## Constraints  
-- **回覆必須**：代理必須確認收到Telegram訊息，方可進一步拆解任務
+請先產生 daily snapshots，再整理成這份 MEMORY.md：
+
+- 觸發 `.github/workflows/compact-memory.yml`
+- 執行 `node .github/scripts/memory/compact-memory.mjs`
+- 執行 `node .github/scripts/memory/summarize-memory-context.mjs --memory-dir .memory --output .memory/MEMORY.md`
