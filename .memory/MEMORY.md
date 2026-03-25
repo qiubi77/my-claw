@@ -1,11 +1,12 @@
 # Repository Memory
 
-這份檔案是從 `daily/*.md` 蒸餾出來的長期 memory。
+## Stable Context
+- **Repository**: `qiubi77/my-claw`  
+- **Issue state**: all issues are monitored.  
+- **Issue limit**: 100 per snapshot.  
+- **Monitoring window**: last 30 days.  
+- **Current active issue**: #1 (status: waiting for owner input).  
+- **No decisions or long‑term rules have been recorded yet.**  
 
-尚未建立整理後的長期 context。
-
-請先產生 daily snapshots，再整理成這份 MEMORY.md：
-
-- 觸發 `.github/workflows/compact-memory.yml`
-- 執行 `node .github/scripts/memory/compact-memory.mjs`
-- 執行 `node .github/scripts/memory/summarize-memory-context.mjs --memory-dir .memory --output .memory/MEMORY.md`
+## Recent Themes
+- The lobsters are in a standby mode, patiently awaiting the
