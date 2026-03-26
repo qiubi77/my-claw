@@ -1,11 +1,21 @@
 # Repository Memory
 
-這份檔案是從 `daily/*.md` 蒸餾出來的長期 memory。
+## Stable Context  
+- **倉庫**：`qiubi77/my-claw`  
+- **主要待辦**：Issue #1 目前處於「等待」狀態，尚未收到任何更新或決策。  
+- **工作流程**：所有 agent 皆在待命，等待主人的進一步指示。  
+- **歷史紀錄**：過去三天（2026‑03‑24 至 2026‑03‑26）Issue #1 的狀態保持不變，未有任何變動或決策被執行。  
 
-尚未建立整理後的長期 context。
+## Recent Themes  
+- **等待主人的指示**：三天來，所有日誌均顯示龍蝦群在靜待主人的下一步。  
+- **無跨 issue 主題**：目前僅有 Issue #1，無其他活躍 issue 可形成跨 issue 主題。  
 
-請先產生 daily snapshots，再整理成這份 MEMORY.md：
+## Constraints  
+- **資訊缺乏**：目前尚未收到任何關於 Issue #1 的具體需求、優先順序或限制條件。  
+- **決策空缺**：無任何決策已被提出或執行，所有行動均受限於主人的指示。  
 
-- 觸發 `.github/workflows/compact-memory.yml`
-- 執行 `node .github/scripts/memory/compact-memory.mjs`
-- 執行 `node .github/scripts/memory/summarize-memory-context.mjs --memory-dir .memory --output .memory/MEMORY.md`
+## Open Loops  
+- **Issue #1**：仍在等待主人的確認與需求說明。  
+- **未來可能的變化**：若主人在未來一天提供新資訊，龍蝦群將立即更新 Issue #1 的狀態並執行相應工作。  
+
+> **備註**：目前所有資訊均來自三天的日誌，若未來出現新的 issue 或決策，請即時更新此記憶檔。若有任何矛盾或不確定性，請在此標註以便後續澄清。
