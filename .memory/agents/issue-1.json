@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T21:46:04.398Z",
+  "generatedAt": "2026-03-27T21:52:59.995Z",
   "repository": "qiubi77/my-claw",
   "issue": {
     "number": 1,
@@ -18,22 +18,22 @@
   "summary": {
     "status": "活躍 - 目前 issue 尚未有任何更新，仍在等待主人的進一步指示。",
     "recentActivity": [
-      "無近期活動，issue 內容仍為空白。"
+      "無近期活動，issue 尚未被處理。"
     ],
     "decisions": [
-      "尚未做出任何決策，等待主人的指示。"
+      "尚未做出任何決策，等待主人的進一步指示。"
     ],
     "completedWork": [
       "目前沒有可確認的已完成工作。"
     ],
     "openTasks": [
-      "等待主人確認 issue 內容並提供後續需求。"
+      "確認 issue 內容並等待後續指示。"
     ],
     "preferences": [
       "目前沒有可確認的偏好設定。"
     ],
     "openLoops": [
-      "等待主人確認 issue 內容並提供後續需求。"
+      "確認 issue 內容並等待後續指示。"
     ]
   }
 }

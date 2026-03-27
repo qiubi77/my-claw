@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-03-27T21:52:59.995Z",
+  "window": {
+    "repository": "qiubi77/my-claw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/qiubi77/my-claw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "今天的龍蝦群在海底盤點，發現主人還未啟動任何新工作。",
+      "**Issue #1**：仍停留在「活躍」狀態，尚未收到任何更新或指示。",
+      "目前沒有任何已完成的工作或決策，所有任務仍在等待主人的下一步指示。",
+      "主人今天的工作脈絡：沒有進行任何實際的程式碼提交、測試或文件更新。",
+      "這些龍蝦們正靜靜等待主人的訊號，準備在下一波浪潮中協助完成任務。"
+    ],
+    "crossIssueThemes": [
+      "由於目前只有一個未完成的 issue，跨 issue 的主題或關聯尚未出現。",
+      "若未來有多個 issue，龍蝦群將會觀察是否有共通的技術挑戰（如 API 整合、CI/CD 設定）或重複的需求模式。"
+    ],
+    "decisions": [
+      "目前沒有任何決策被做出。",
+      "主人尚未決定是否要先確認 issue 內容、還是先進行其他工作。",
+      "龍蝦們建議先把 issue #1 的需求細節寫清楚，方便後續快速投入。"
+    ],
+    "openLoops": [
+      "**確認 Issue #1 的內容**：需要主人提供更詳細的需求描述或範例。",
+      "**設定優先順序**：若有其他待辦事項，請先決定優先級。",
+      "**溝通頻率**：建議每日或每兩天更新一次進度，讓龍蝦群能即時調整協助策略。",
+      "> 以上即為今日龍蝦群的記錄，等待主人的下一波指令。"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
