@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-03-31T21:59:29.800Z",
+  "window": {
+    "repository": "qiubi77/my-claw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/qiubi77/my-claw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "今天的龍蝦群在主人忙碌的工作與生活中，仍在等待第一個 issue 的啟動。",
+      "**Issue #1**：目前仍處於「活躍」狀態，尚未收到任何回覆或進度更新。",
+      "目前沒有任何已完成的工作，所有工作項目仍停留在「待辦」階段。",
+      "主人今天的工作脈絡主要集中在確認需求與建立工作清單，龍蝦們正準備好在收到指示後立即投入。"
+    ],
+    "crossIssueThemes": [
+      "由於目前只有 Issue #1 進行中，跨 issue 的主題尚未出現。",
+      "若未來有多個 issue，龍蝦群將會關注「需求釐清」與「工作優先順序」的共通性，並協助主人統整各項任務。"
+    ],
+    "decisions": [
+      "目前尚未做出任何決策，所有決策仍待後續討論。",
+      "主人可在今天或明日提供更明確的需求與優先順序，龍蝦群將即時更新決策紀錄。"
+    ],
+    "openLoops": [
+      "釐清 issue 目的與需求。",
+      "建立工作清單與優先順序。",
+      "監控 issue 變更。",
+      "與主人確認需求。",
+      "記錄進度。"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
