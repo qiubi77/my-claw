@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-04-03T21:50:51.676Z",
+  "window": {
+    "repository": "qiubi77/my-claw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/qiubi77/my-claw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "今天的龍蝦群在主人忙碌的日程中，仍在緊盯著 #1 這個新開的 issue。",
+      "**活躍度**：issue 仍保持「活躍」狀態，僅收到創建訊息，尚未有進一步對話。",
+      "**工作進度**：目前沒有任何已完成的工作項目，所有工作仍停留在「待決定」階段。",
+      "**主人的行動**：從目前的資料看，主人今天並未對此 issue 做出任何回覆或決策，可能正在處理其他更緊急的任務。",
+      "**未完成任務**："
+    ],
+    "crossIssueThemes": [
+      "目前僅有 #1 這一個 issue，無法形成跨 issue 的主題。若未來有更多 issue，將會觀察是否有共通的需求或重複的工作流程。"
+    ],
+    "decisions": [
+      "**決策**：尚未有任何決策被記錄。",
+      "**待決策事項**：需要主人回覆以確定工作方向與優先順序。"
+    ],
+    "openLoops": [
+      "確認 issue 目的與需求",
+      "設定工作範圍與優先順序",
+      "追蹤後續 Telegram 對話",
+      "更新 issue 標籤與指派",
+      "監控進度"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
