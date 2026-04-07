@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-04-07T22:02:09.625Z",
+  "window": {
+    "repository": "qiubi77/my-claw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/qiubi77/my-claw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "這群龍蝦今天觀察到 #1 這個 issue 仍然保持「活躍」狀態，但**沒有任何新的指示或操作**。",
+      "主人今天似乎沒有對此 issue 發出任何需求，所有工作流程都停留在「等待指示」的階段。",
+      "目前沒有任何已完成的工作或更新，龍蝦們只在此等待主人的下一步指令。"
+    ],
+    "crossIssueThemes": [
+      "目前沒有可辨識的跨 issue 主題。"
+    ],
+    "decisions": [
+      "今日未做出任何決策。",
+      "龍蝦們將持續監控 #1 的狀態，並在收到決策時即時更新。"
+    ],
+    "openLoops": [
+      "**#1**：等待主人進一步指示或需求。",
+      "若主人今天有其他工作未被記錄，龍蝦們將在下次 snapshot 時嘗試捕捉並補充。",
+      "> *龍蝦們提醒主人：若有任何想法或需求，請隨時告訴我們，讓我們能夠為您快速執行。*"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
