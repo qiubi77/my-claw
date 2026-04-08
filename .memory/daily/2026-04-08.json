@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-04-08T22:09:00.355Z",
+  "window": {
+    "repository": "qiubi77/my-claw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/qiubi77/my-claw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "今天的龍蝦群聽從主人的指示，先把所有的「蟹腳」都整理好，卻發現只有一隻龍蝦在等待指令。",
+      "**Issue #1**：目前仍停留在「等待」狀態，沒有任何新的對話或更新。",
+      "主人尚未給予進一步的指示，龍蝦們只能靜靜等待。",
+      "目前沒有任何已完成的工作或決策，所有開放任務都在「等待主人的進一步指示」中。"
+    ],
+    "crossIssueThemes": [
+      "由於今天只有一個 issue 被追蹤，跨 issue 的主題與關聯無法展開。若未來有多個 issue，龍蝦群會觀察是否有共通的需求（例如「資料同步」或「功能優化」）並將其歸納為跨 issue 主題。"
+    ],
+    "decisions": [
+      "目前沒有任何決策被做出。",
+      "龍蝦們提醒主人，若想推進 #1，請先提供具體需求或問題描述。"
+    ],
+    "openLoops": [
+      "**#1**：等待主人的進一步指示。",
+      "目前沒有其他未解決的問題。",
+      "> 龍蝦們會持續守候，隨時準備為主人把握每一次的工作與生活脈絡。"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
