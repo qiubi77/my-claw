@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-04-10T21:57:49.407Z",
+  "window": {
+    "repository": "qiubi77/my-claw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/qiubi77/my-claw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "今天的龍蝦群聽到主人的腳步，卻發現整個倉庫裡只有一隻龍蝦在等待指示——Issue #1。",
+      "**工作進度**：目前沒有任何更新或留言，龍蝦們只能靜靜等待主人的下一步指示。",
+      "**已完成工作**：尚未有任何可確認的完成項目。",
+      "**正在進行的任務**：無，龍蝦們正靜候主人的需求。"
+    ],
+    "crossIssueThemes": [
+      "由於今天只有 Issue #1 進行了簡單的檢查，沒有跨 issue 的主題可供彙整。若未來有多個 issue 互相呼應，龍蝦群將會把它們串連成一條「海浪」般的工作脈絡。"
+    ],
+    "decisions": [
+      "**決策**：目前尚未做出任何決策，龍蝦們正等待主人的進一步指示。"
+    ],
+    "openLoops": [
+      "**未解決問題**：Issue #1 仍處於「等待」狀態，缺乏足夠資訊。",
+      "**下一步**：龍蝦群將持續監控 Issue #1 的更新，一旦收到新的留言或變更，立即回報並協助主人進行後續處理。",
+      "> *龍蝦們提醒主人：若想讓今天的工作更有節奏，請在 Issue #1 中加入具體需求或問題描述，讓我們能夠立刻投入工作。*"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
