@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-04-11T21:04:43.904Z",
+  "window": {
+    "repository": "qiubi77/my-claw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/qiubi77/my-claw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "今天的龍蝦群在寧靜的海底等待主人的指示，並未執行任何實際操作。",
+      "**#1**：目前仍處於「等待」狀態，沒有收到新的任務或回覆。",
+      "這隻龍蝦已經確認：",
+      "**已完成工作**：無。",
+      "**近期活動**：無。"
+    ],
+    "crossIssueThemes": [
+      "目前沒有可辨識的跨 issue 主題。"
+    ],
+    "decisions": [
+      "**#1**：尚未做出任何決策，等待主人的進一步指示。"
+    ],
+    "openLoops": [
+      "**#1**：等待主人的進一步指示或需求。",
+      "目前沒有其他未解決的問題。",
+      "> **龍蝦群備註**：今天的海底相對平靜，沒有新的波動。若主人有任何需求，請隨時召喚我們，我們將立刻展開工作。"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
