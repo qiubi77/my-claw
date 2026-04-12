@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-04-12T21:53:20.246Z",
+  "window": {
+    "repository": "qiubi77/my-claw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/qiubi77/my-claw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "今天的龍蝦群靜靜地等待主人的指示，並未收到任何新的工作或更新。",
+      "**Issue #1**：目前仍處於待命狀態，沒有任何進度或完成的工作。",
+      "主人今天似乎沒有啟動新的任務，或是將工作交由其他未列入此 snapshot 的 issue 處理。",
+      "龍蝦們已經把 #1 的「待命」狀態記錄在心，隨時準備接收下一步指令。"
+    ],
+    "crossIssueThemes": [
+      "目前沒有可辨識的跨 issue 主題。"
+    ],
+    "decisions": [
+      "目前尚未做出任何決策，因為沒有收到新的指示。",
+      "龍蝦們已備好在主人提出需求時即刻執行。"
+    ],
+    "openLoops": [
+      "**等待主人的需求或指示**：#1 的 openLoops 仍在等待主人的下一步行動。",
+      "若主人今天有其他工作未被列入此 snapshot，請在後續更新中補充，以便龍蝦群能完整記錄。"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
