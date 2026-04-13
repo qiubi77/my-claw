@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-04-13T22:31:09.866Z",
+  "window": {
+    "repository": "qiubi77/my-claw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/qiubi77/my-claw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "主人今天主要在 **qiubi77/my-claw** 的 Issue #1 上做了初步檢視，確認目前尚未有任何更新。",
+      "由於 Issue 仍處於「活躍」但未進行任何操作，龍蝦群只記錄了目前的待辦清單與未決事項。",
+      "目前沒有任何已完成的工作或決策，整體進度停留在「等待主人的進一步指示」階段。"
+    ],
+    "crossIssueThemes": [
+      "目前沒有可辨識的跨 issue 主題。"
+    ],
+    "decisions": [
+      "目前尚未做出任何決策。",
+      "主人未對 Issue #1 的內容或優先順序作出指示，龍蝦群將持續等待後續指令。"
+    ],
+    "openLoops": [
+      "確認 issue 內容是否需要補充說明。",
+      "設定適當標籤或指派人。",
+      "監控後續留言。",
+      "整理 Telegram 對話。",
+      "準備回覆。"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
