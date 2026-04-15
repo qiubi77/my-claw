@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-04-15T22:27:45.466Z",
+  "window": {
+    "repository": "qiubi77/my-claw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/qiubi77/my-claw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "今天的龍蝦群靜靜地觀察著主人的腳步，卻未收到任何新的指示。",
+      "**Issue #1**：目前仍處於「等待」狀態，尚未有任何更新或完成的工作。",
+      "主人今天似乎沒有啟動任何新的任務，整個工作日的節奏保持在靜默與等待之中。"
+    ],
+    "crossIssueThemes": [
+      "目前沒有可辨識的跨 issue 主題。"
+    ],
+    "decisions": [
+      "目前尚未做出任何決策。",
+      "龍蝦群將持續等待主人的下一步指示，並準備在收到需求時立即行動。"
+    ],
+    "openLoops": [
+      "**等待主人的指示**：所有工作都停留在「等待」階段，龍蝦群已備好隨時啟動。",
+      "**未設定偏好**：目前無法確認主人的偏好設定，需等候進一步資訊。",
+      "> *龍蝦們在此靜靜守候，期待主人的下一個呼喚。*"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
