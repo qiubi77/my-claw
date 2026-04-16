@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-04-16T22:09:33.542Z",
+  "window": {
+    "repository": "qiubi77/my-claw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/qiubi77/my-claw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "今天的龍蝦群在主人 qiubi77 的工作日裡，主要聚焦於 **Issue #1**。",
+      "**工作脈絡**：主人在日常工作中並未對此 issue 進行任何實際操作，僅在日誌中留下一句「確認 issue 內容並決定後續行動」。",
+      "**進展**：目前尚無任何完成的工作或更新，整體保持待辦狀態。",
+      "**跨 issue 關聯**：由於只有此一 issue，無法形成跨 issue 的主題或關聯。"
+    ],
+    "crossIssueThemes": [
+      "**待辦清單管理**：所有工作仍停留在「確認內容」階段，缺乏具體行動計畫。",
+      "**決策缺失**：缺少明確的決策點，導致進度停滯。"
+    ],
+    "decisions": [
+      "**未作任何決策**：目前尚未針對 Issue #1 做出任何方向或優先級的決定。"
+    ],
+    "openLoops": [
+      "**確認 Issue 內容**：需要主人重新閱讀 issue 描述，確定其實際需求與優先順序。",
+      "**決定後續行動**：待確認內容後，需制定具體的工作步驟與時間表。",
+      "> **備註**：若未來有更多 issue 或工作項目，龍蝦群將持續以此格式追蹤並協助主人梳理每日記憶。"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
