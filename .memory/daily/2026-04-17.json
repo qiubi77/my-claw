@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-04-17T22:06:12.496Z",
+  "window": {
+    "repository": "qiubi77/my-claw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/qiubi77/my-claw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "今天的龍蝦群（即 issue agents）整體保持靜默，因為唯一的 #1 需求尚未收到任何指令或回覆。",
+      "**資訊不明**：缺乏內容與互動，無法進行任何實際工作。",
+      "**等待主人**：所有開放任務都在等待主人提供需求或進一步說明。",
+      "**無完成工作**：目前沒有任何已完成的任務可報告。",
+      "> 這就像一隻龍蝦在海底等待食物，靜靜地觀察四周，準備隨時啟動。"
+    ],
+    "crossIssueThemes": [
+      "目前僅有一個 issue，無跨 issue 的主題或關聯。",
+      "若未來再有多個 issue，龍蝦群將會尋找共通的「資料同步」或「權限管理」等主題。"
+    ],
+    "decisions": [
+      "**無決策**：由於缺乏足夠資訊，未做任何決策。",
+      "**待指示**：龍蝦群已備妥，隨時等待主人給予下一步指令。"
+    ],
+    "openLoops": [
+      "**等待需求**：#1 仍在等待主人提供具體需求或問題描述。",
+      "**資訊缺失**：若主人能提供更詳細的背景或目標，龍蝦群將能立即啟動相應工作。",
+      "> 只要主人一聲令下，龍蝦群就會立刻展開工作，像是海浪拍岸般迅速。"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
